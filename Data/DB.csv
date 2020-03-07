@@ -1143,259 +1143,259 @@ Date,Type,Value,reg_name,reg_istat_code_num,prov_name,prov_istat_code_num
 05/03/2020,deceased,148,Italia,,,
 05/03/2020,total,3858,Italia,,,
 05/03/2020,tested,32362,Italia,,,
-06/03/2020,total_p,623,Lombardia,2.0,Bergamo,16
-06/03/2020,total_p,739,Lombardia,2.0,Lodi,98
-06/03/2020,total_p,452,Lombardia,2.0,Cremona,19
+06/03/2020,total_p,623,Lombardia,2.0,Bergamo,16.0
+06/03/2020,total_p,739,Lombardia,2.0,Lodi,98.0
+06/03/2020,total_p,452,Lombardia,2.0,Cremona,19.0
 06/03/2020,testing,68,Lombardia,2.0,,
-06/03/2020,total_p,180,Lombardia,2.0,Pavia,18
-06/03/2020,total_p,182,Lombardia,2.0,Brescia,17
-06/03/2020,total_p,267,Lombardia,2.0,Milano,15
-06/03/2020,total_p,20,Lombardia,2.0,Monza e della Brianza,108
-06/03/2020,total_p,32,Lombardia,2.0,Mantova,20
-06/03/2020,total_p,23,Lombardia,2.0,Varese,12
-06/03/2020,total_p,4,Lombardia,2.0,Sondrio,14
-06/03/2020,total_p,11,Lombardia,2.0,Como,13
-06/03/2020,total_p,11,Lombardia,2.0,Lecco,97
-06/03/2020,total_p,426,Emilia-Romagna,7.0,Piacenza,33
-06/03/2020,total_p,181,Emilia-Romagna,7.0,Parma,34
-06/03/2020,total_p,73,Emilia-Romagna,7.0,Modena,36
-06/03/2020,total_p,93,Emilia-Romagna,7.0,Rimini,99
-06/03/2020,total_p,44,Emilia-Romagna,7.0,Reggio nell'Emilia,35
-06/03/2020,total_p,41,Emilia-Romagna,7.0,Bologna,37
-06/03/2020,total_p,8,Emilia-Romagna,7.0,Ravenna,39
-06/03/2020,total_p,3,Emilia-Romagna,7.0,Forlì-Cesena,40
-06/03/2020,total_p,1,Emilia-Romagna,7.0,Ferrara,38
+06/03/2020,total_p,180,Lombardia,2.0,Pavia,18.0
+06/03/2020,total_p,182,Lombardia,2.0,Brescia,17.0
+06/03/2020,total_p,267,Lombardia,2.0,Milano,15.0
+06/03/2020,total_p,20,Lombardia,2.0,Monza e della Brianza,108.0
+06/03/2020,total_p,32,Lombardia,2.0,Mantova,20.0
+06/03/2020,total_p,23,Lombardia,2.0,Varese,12.0
+06/03/2020,total_p,4,Lombardia,2.0,Sondrio,14.0
+06/03/2020,total_p,11,Lombardia,2.0,Como,13.0
+06/03/2020,total_p,11,Lombardia,2.0,Lecco,97.0
+06/03/2020,total_p,426,Emilia-Romagna,7.0,Piacenza,33.0
+06/03/2020,total_p,181,Emilia-Romagna,7.0,Parma,34.0
+06/03/2020,total_p,73,Emilia-Romagna,7.0,Modena,36.0
+06/03/2020,total_p,93,Emilia-Romagna,7.0,Rimini,99.0
+06/03/2020,total_p,44,Emilia-Romagna,7.0,Reggio nell'Emilia,35.0
+06/03/2020,total_p,41,Emilia-Romagna,7.0,Bologna,37.0
+06/03/2020,total_p,8,Emilia-Romagna,7.0,Ravenna,39.0
+06/03/2020,total_p,3,Emilia-Romagna,7.0,Forlì-Cesena,40.0
+06/03/2020,total_p,1,Emilia-Romagna,7.0,Ferrara,38.0
 06/03/2020,testing,0,Emilia-Romagna,7.0,,
-06/03/2020,total_p,198,Veneto,4.0,Padova,28
-06/03/2020,total_p,103,Veneto,4.0,Treviso,26
-06/03/2020,total_p,85,Veneto,4.0,Venezia,27
-06/03/2020,total_p,42,Veneto,4.0,Verona,23
+06/03/2020,total_p,198,Veneto,4.0,Padova,28.0
+06/03/2020,total_p,103,Veneto,4.0,Treviso,26.0
+06/03/2020,total_p,85,Veneto,4.0,Venezia,27.0
+06/03/2020,total_p,42,Veneto,4.0,Verona,23.0
 06/03/2020,testing,24,Veneto,4.0,,
-06/03/2020,total_p,24,Veneto,4.0,Vicenza,24
-06/03/2020,total_p,7,Veneto,4.0,Belluno,25
-06/03/2020,total_p,5,Veneto,4.0,Rovigo,29
-06/03/2020,total_p,126,Marche,10.0,Pesaro e Urbino,41
-06/03/2020,total_p,23,Marche,10.0,Ancona,42
-06/03/2020,total_p,7,Marche,10.0,Macerata,43
-06/03/2020,total_p,3,Marche,10.0,Fermo,109
-06/03/2020,total_p,34,Piemonte,0.0,Torino,1
-06/03/2020,total_p,4,Piemonte,0.0,Novara,3
-06/03/2020,total_p,47,Piemonte,0.0,Asti,5
-06/03/2020,total_p,7,Piemonte,0.0,Vercelli,2
-06/03/2020,total_p,32,Piemonte,0.0,Alessandria,6
-06/03/2020,total_p,9,Piemonte,0.0,Verbano-Cusio-Ossola,103
-06/03/2020,total_p,3,Piemonte,0.0,Biella,96
-06/03/2020,total_p,1,Piemonte,0.0,Cuneo,4
+06/03/2020,total_p,24,Veneto,4.0,Vicenza,24.0
+06/03/2020,total_p,7,Veneto,4.0,Belluno,25.0
+06/03/2020,total_p,5,Veneto,4.0,Rovigo,29.0
+06/03/2020,total_p,126,Marche,10.0,Pesaro e Urbino,41.0
+06/03/2020,total_p,23,Marche,10.0,Ancona,42.0
+06/03/2020,total_p,7,Marche,10.0,Macerata,43.0
+06/03/2020,total_p,3,Marche,10.0,Fermo,109.0
+06/03/2020,total_p,34,Piemonte,0.0,Torino,1.0
+06/03/2020,total_p,4,Piemonte,0.0,Novara,3.0
+06/03/2020,total_p,47,Piemonte,0.0,Asti,5.0
+06/03/2020,total_p,7,Piemonte,0.0,Vercelli,2.0
+06/03/2020,total_p,32,Piemonte,0.0,Alessandria,6.0
+06/03/2020,total_p,9,Piemonte,0.0,Verbano-Cusio-Ossola,103.0
+06/03/2020,total_p,3,Piemonte,0.0,Biella,96.0
+06/03/2020,total_p,1,Piemonte,0.0,Cuneo,4.0
 06/03/2020,testing,6,Piemonte,0.0,,
-06/03/2020,total_p,23,Toscana,8.0,Firenze,48
-06/03/2020,total_p,14,Toscana,8.0,Siena,52
-06/03/2020,total_p,10,Toscana,8.0,Massa-Carrara,45
-06/03/2020,total_p,1,Toscana,8.0,Pistoia,47
-06/03/2020,total_p,8,Toscana,8.0,Lucca,46
-06/03/2020,total_p,7,Toscana,8.0,Arezzo,51
-06/03/2020,total_p,8,Toscana,8.0,Pisa,50
-06/03/2020,total_p,5,Toscana,8.0,Livorno,49
-06/03/2020,total_p,1,Toscana,8.0,Prato,100
-06/03/2020,total_p,2,Toscana,8.0,Grosseto,53
-06/03/2020,total_p,17,Campania,14.0,Napoli,63
+06/03/2020,total_p,23,Toscana,8.0,Firenze,48.0
+06/03/2020,total_p,14,Toscana,8.0,Siena,52.0
+06/03/2020,total_p,10,Toscana,8.0,Massa-Carrara,45.0
+06/03/2020,total_p,1,Toscana,8.0,Pistoia,47.0
+06/03/2020,total_p,8,Toscana,8.0,Lucca,46.0
+06/03/2020,total_p,7,Toscana,8.0,Arezzo,51.0
+06/03/2020,total_p,8,Toscana,8.0,Pisa,50.0
+06/03/2020,total_p,5,Toscana,8.0,Livorno,49.0
+06/03/2020,total_p,1,Toscana,8.0,Prato,100.0
+06/03/2020,total_p,2,Toscana,8.0,Grosseto,53.0
+06/03/2020,total_p,17,Campania,14.0,Napoli,63.0
 06/03/2020,testing,40,Campania,14.0,,
-06/03/2020,total_p,49,Lazio,11.0,Roma,58
-06/03/2020,total_p,1,Lazio,11.0,Frosinone,60
-06/03/2020,total_p,2,Lazio,11.0,Viterbo,56
-06/03/2020,total_p,2,Lazio,11.0,Latina,59
-06/03/2020,total_p,15,Liguria,6.0,Savona,9
-06/03/2020,total_p,3,Liguria,6.0,Imperia,8
-06/03/2020,total_p,9,Liguria,6.0,Genova,10
-06/03/2020,total_p,1,Liguria,6.0,La Spezia,11
+06/03/2020,total_p,49,Lazio,11.0,Roma,58.0
+06/03/2020,total_p,1,Lazio,11.0,Frosinone,60.0
+06/03/2020,total_p,2,Lazio,11.0,Viterbo,56.0
+06/03/2020,total_p,2,Lazio,11.0,Latina,59.0
+06/03/2020,total_p,15,Liguria,6.0,Savona,9.0
+06/03/2020,total_p,3,Liguria,6.0,Imperia,8.0
+06/03/2020,total_p,9,Liguria,6.0,Genova,10.0
+06/03/2020,total_p,1,Liguria,6.0,La Spezia,11.0
 06/03/2020,testing,4,Liguria,6.0,,
-06/03/2020,total_p,7,Friuli-Venezia Giulia,5.0,Trieste,32
-06/03/2020,total_p,6,Friuli-Venezia Giulia,5.0,Gorizia,31
-06/03/2020,total_p,18,Friuli-Venezia Giulia,5.0,Udine,30
-06/03/2020,total_p,5,Sicilia,18.0,Palermo,82
-06/03/2020,total_p,1,Sicilia,18.0,Enna,86
-06/03/2020,total_p,15,Sicilia,18.0,Catania,87
-06/03/2020,total_p,1,Sicilia,18.0,Ragusa,88
-06/03/2020,total_p,2,Sicilia,18.0,Siracusa,89
-06/03/2020,total_p,3,Puglia,15.0,Taranto,73
-06/03/2020,total_p,3,Puglia,15.0,Bari,72
-06/03/2020,total_p,1,Puglia,15.0,Barletta-Andria-Trani,110
-06/03/2020,total_p,3,Puglia,15.0,Lecce,75
-06/03/2020,total_p,7,Puglia,15.0,Foggia,71
-06/03/2020,total_p,10,Umbria,9.0,Perugia,54
-06/03/2020,total_p,6,Umbria,9.0,Terni,55
-06/03/2020,total_p,4,Abruzzo,12.0,Teramo,67
-06/03/2020,total_p,1,Abruzzo,12.0,Pescara,68
-06/03/2020,total_p,3,Abruzzo,12.0,Chieti,69
-06/03/2020,total_p,12,Molise,13.0,Campobasso,70
-06/03/2020,total_p,4,Trentino-Alto Adige/Südtirol,3.0,Bolzano/Bozen,21
-06/03/2020,total_p,10,Trentino-Alto Adige/Südtirol,3.0,Trento,22
-06/03/2020,total_p,3,Sardegna,19.0,Cagliari,92
-06/03/2020,total_p,2,Sardegna,19.0,Nuoro,91
-06/03/2020,total_p,2,Basilicata,16.0,Potenza,76
-06/03/2020,total_p,1,Basilicata,16.0,Matera,77
-06/03/2020,total_p,7,Valle d'Aosta/Vallée d'Aoste,1.0,Valle d'Aosta/Vallée d'Aoste,7
-06/03/2020,total_p,1,Calabria,17.0,Cosenza,78
-06/03/2020,total_p,2,Calabria,17.0,Catanzaro,79
-06/03/2020,hospitalized,1622,Lombardia,2,,
-06/03/2020,hospitalized_intensive,309,Lombardia,2,,
-06/03/2020,self_isolation,77,Lombardia,2,,
-06/03/2020,positive,2008,Lombardia,2,,
-06/03/2020,discharged,469,Lombardia,2,,
-06/03/2020,deceased,135,Lombardia,2,,
-06/03/2020,total,2612,Lombardia,2,,
-06/03/2020,tested,13556,Lombardia,2,,
-06/03/2020,hospitalized,397,Emilia-Romagna,7,,
-06/03/2020,hospitalized_intensive,53,Emilia-Romagna,7,,
-06/03/2020,self_isolation,366,Emilia-Romagna,7,,
-06/03/2020,positive,816,Emilia-Romagna,7,,
-06/03/2020,discharged,17,Emilia-Romagna,7,,
-06/03/2020,deceased,37,Emilia-Romagna,7,,
-06/03/2020,total,870,Emilia-Romagna,7,,
-06/03/2020,tested,3136,Emilia-Romagna,7,,
-06/03/2020,hospitalized,117,Veneto,4,,
-06/03/2020,hospitalized_intensive,27,Veneto,4,,
-06/03/2020,self_isolation,310,Veneto,4,,
-06/03/2020,positive,454,Veneto,4,,
-06/03/2020,discharged,22,Veneto,4,,
-06/03/2020,deceased,12,Veneto,4,,
-06/03/2020,total,488,Veneto,4,,
-06/03/2020,tested,13023,Veneto,4,,
-06/03/2020,hospitalized,73,Marche,10,,
-06/03/2020,hospitalized_intensive,20,Marche,10,,
-06/03/2020,self_isolation,62,Marche,10,,
-06/03/2020,positive,155,Marche,10,,
-06/03/2020,discharged,0,Marche,10,,
-06/03/2020,deceased,4,Marche,10,,
-06/03/2020,total,159,Marche,10,,
-06/03/2020,tested,585,Marche,10,,
-06/03/2020,hospitalized,57,Piemonte,0,,
-06/03/2020,hospitalized_intensive,30,Piemonte,0,,
-06/03/2020,self_isolation,52,Piemonte,0,,
-06/03/2020,positive,139,Piemonte,0,,
-06/03/2020,discharged,0,Piemonte,0,,
-06/03/2020,deceased,4,Piemonte,0,,
-06/03/2020,total,143,Piemonte,0,,
-06/03/2020,tested,793,Piemonte,0,,
-06/03/2020,hospitalized,35,Toscana,8,,
-06/03/2020,hospitalized_intensive,5,Toscana,8,,
-06/03/2020,self_isolation,38,Toscana,8,,
-06/03/2020,positive,78,Toscana,8,,
-06/03/2020,discharged,1,Toscana,8,,
-06/03/2020,deceased,0,Toscana,8,,
-06/03/2020,total,79,Toscana,8,,
-06/03/2020,tested,1097,Toscana,8,,
-06/03/2020,hospitalized,26,Lazio,11,,
-06/03/2020,hospitalized_intensive,8,Lazio,11,,
-06/03/2020,self_isolation,16,Lazio,11,,
-06/03/2020,positive,50,Lazio,11,,
-06/03/2020,discharged,3,Lazio,11,,
-06/03/2020,deceased,1,Lazio,11,,
-06/03/2020,total,54,Lazio,11,,
-06/03/2020,tested,1373,Lazio,11,,
-06/03/2020,hospitalized,12,Campania,14,,
-06/03/2020,hospitalized_intensive,0,Campania,14,,
-06/03/2020,self_isolation,45,Campania,14,,
-06/03/2020,positive,57,Campania,14,,
-06/03/2020,discharged,0,Campania,14,,
-06/03/2020,deceased,0,Campania,14,,
-06/03/2020,total,57,Campania,14,,
-06/03/2020,tested,471,Campania,14,,
-06/03/2020,hospitalized,12,Liguria,6,,
-06/03/2020,hospitalized_intensive,5,Liguria,6,,
-06/03/2020,self_isolation,7,Liguria,6,,
-06/03/2020,positive,24,Liguria,6,,
-06/03/2020,discharged,5,Liguria,6,,
-06/03/2020,deceased,3,Liguria,6,,
-06/03/2020,total,32,Liguria,6,,
-06/03/2020,tested,229,Liguria,6,,
-06/03/2020,hospitalized,4,Friuli-Venezia Giulia,5,,
-06/03/2020,hospitalized_intensive,0,Friuli-Venezia Giulia,5,,
-06/03/2020,self_isolation,24,Friuli-Venezia Giulia,5,,
-06/03/2020,positive,28,Friuli-Venezia Giulia,5,,
-06/03/2020,discharged,3,Friuli-Venezia Giulia,5,,
-06/03/2020,deceased,0,Friuli-Venezia Giulia,5,,
-06/03/2020,total,31,Friuli-Venezia Giulia,5,,
-06/03/2020,tested,577,Friuli-Venezia Giulia,5,,
-06/03/2020,hospitalized,7,Sicilia,18,,
-06/03/2020,hospitalized_intensive,0,Sicilia,18,,
-06/03/2020,self_isolation,15,Sicilia,18,,
-06/03/2020,positive,22,Sicilia,18,,
-06/03/2020,discharged,2,Sicilia,18,,
-06/03/2020,deceased,0,Sicilia,18,,
-06/03/2020,total,24,Sicilia,18,,
-06/03/2020,tested,367,Sicilia,18,,
-06/03/2020,hospitalized,5,Puglia,15,,
-06/03/2020,hospitalized_intensive,1,Puglia,15,,
-06/03/2020,self_isolation,9,Puglia,15,,
-06/03/2020,positive,15,Puglia,15,,
-06/03/2020,discharged,1,Puglia,15,,
-06/03/2020,deceased,1,Puglia,15,,
-06/03/2020,total,17,Puglia,15,,
-06/03/2020,tested,395,Puglia,15,,
-06/03/2020,hospitalized,2,Umbria,9,,
-06/03/2020,hospitalized_intensive,2,Umbria,9,,
-06/03/2020,self_isolation,12,Umbria,9,,
-06/03/2020,positive,16,Umbria,9,,
-06/03/2020,discharged,0,Umbria,9,,
-06/03/2020,deceased,0,Umbria,9,,
-06/03/2020,total,16,Umbria,9,,
-06/03/2020,tested,110,Umbria,9,,
-06/03/2020,hospitalized,3,Molise,13,,
-06/03/2020,hospitalized_intensive,2,Molise,13,,
-06/03/2020,self_isolation,7,Molise,13,,
-06/03/2020,positive,12,Molise,13,,
-06/03/2020,discharged,0,Molise,13,,
-06/03/2020,deceased,0,Molise,13,,
-06/03/2020,total,12,Molise,13,,
-06/03/2020,tested,104,Molise,13,,
-06/03/2020,hospitalized,8,Trentino-Alto Adige/Südtirol,3,,
-06/03/2020,hospitalized_intensive,0,Trentino-Alto Adige/Südtirol,3,,
-06/03/2020,self_isolation,6,Trentino-Alto Adige/Südtirol,3,,
-06/03/2020,positive,14,Trentino-Alto Adige/Südtirol,3,,
-06/03/2020,discharged,0,Trentino-Alto Adige/Südtirol,3,,
-06/03/2020,deceased,0,Trentino-Alto Adige/Südtirol,3,,
-06/03/2020,total,14,Trentino-Alto Adige/Südtirol,3,,
-06/03/2020,tested,158,Trentino-Alto Adige/Südtirol,3,,
-06/03/2020,hospitalized,9,Abruzzo,12,,
-06/03/2020,hospitalized_intensive,0,Abruzzo,12,,
-06/03/2020,self_isolation,0,Abruzzo,12,,
-06/03/2020,positive,9,Abruzzo,12,,
-06/03/2020,discharged,0,Abruzzo,12,,
-06/03/2020,deceased,0,Abruzzo,12,,
-06/03/2020,total,9,Abruzzo,12,,
-06/03/2020,tested,96,Abruzzo,12,,
-06/03/2020,hospitalized,2,Sardegna,19,,
-06/03/2020,hospitalized_intensive,0,Sardegna,19,,
-06/03/2020,self_isolation,3,Sardegna,19,,
-06/03/2020,positive,5,Sardegna,19,,
-06/03/2020,discharged,0,Sardegna,19,,
-06/03/2020,deceased,0,Sardegna,19,,
-06/03/2020,total,5,Sardegna,19,,
-06/03/2020,tested,99,Sardegna,19,,
-06/03/2020,hospitalized,1,Basilicata,16,,
-06/03/2020,hospitalized_intensive,0,Basilicata,16,,
-06/03/2020,self_isolation,2,Basilicata,16,,
-06/03/2020,positive,3,Basilicata,16,,
-06/03/2020,discharged,0,Basilicata,16,,
-06/03/2020,deceased,0,Basilicata,16,,
-06/03/2020,total,3,Basilicata,16,,
-06/03/2020,tested,63,Basilicata,16,,
-06/03/2020,hospitalized,0,Valle d'Aosta/Vallée d'Aoste,1,,
-06/03/2020,hospitalized_intensive,0,Valle d'Aosta/Vallée d'Aoste,1,,
-06/03/2020,self_isolation,7,Valle d'Aosta/Vallée d'Aoste,1,,
-06/03/2020,positive,7,Valle d'Aosta/Vallée d'Aoste,1,,
-06/03/2020,discharged,0,Valle d'Aosta/Vallée d'Aoste,1,,
-06/03/2020,deceased,0,Valle d'Aosta/Vallée d'Aoste,1,,
-06/03/2020,total,7,Valle d'Aosta/Vallée d'Aoste,1,,
-06/03/2020,tested,28,Valle d'Aosta/Vallée d'Aoste,1,,
-06/03/2020,hospitalized,2,Calabria,17,,
-06/03/2020,hospitalized_intensive,0,Calabria,17,,
-06/03/2020,self_isolation,2,Calabria,17,,
-06/03/2020,positive,4,Calabria,17,,
-06/03/2020,discharged,0,Calabria,17,,
-06/03/2020,deceased,0,Calabria,17,,
-06/03/2020,total,4,Calabria,17,,
-06/03/2020,tested,99,Calabria,17,,
+06/03/2020,total_p,7,Friuli-Venezia Giulia,5.0,Trieste,32.0
+06/03/2020,total_p,6,Friuli-Venezia Giulia,5.0,Gorizia,31.0
+06/03/2020,total_p,18,Friuli-Venezia Giulia,5.0,Udine,30.0
+06/03/2020,total_p,5,Sicilia,18.0,Palermo,82.0
+06/03/2020,total_p,1,Sicilia,18.0,Enna,86.0
+06/03/2020,total_p,15,Sicilia,18.0,Catania,87.0
+06/03/2020,total_p,1,Sicilia,18.0,Ragusa,88.0
+06/03/2020,total_p,2,Sicilia,18.0,Siracusa,89.0
+06/03/2020,total_p,3,Puglia,15.0,Taranto,73.0
+06/03/2020,total_p,3,Puglia,15.0,Bari,72.0
+06/03/2020,total_p,1,Puglia,15.0,Barletta-Andria-Trani,110.0
+06/03/2020,total_p,3,Puglia,15.0,Lecce,75.0
+06/03/2020,total_p,7,Puglia,15.0,Foggia,71.0
+06/03/2020,total_p,10,Umbria,9.0,Perugia,54.0
+06/03/2020,total_p,6,Umbria,9.0,Terni,55.0
+06/03/2020,total_p,4,Abruzzo,12.0,Teramo,67.0
+06/03/2020,total_p,1,Abruzzo,12.0,Pescara,68.0
+06/03/2020,total_p,3,Abruzzo,12.0,Chieti,69.0
+06/03/2020,total_p,12,Molise,13.0,Campobasso,70.0
+06/03/2020,total_p,4,Trentino-Alto Adige/Südtirol,3.0,Bolzano/Bozen,21.0
+06/03/2020,total_p,10,Trentino-Alto Adige/Südtirol,3.0,Trento,22.0
+06/03/2020,total_p,3,Sardegna,19.0,Cagliari,92.0
+06/03/2020,total_p,2,Sardegna,19.0,Nuoro,91.0
+06/03/2020,total_p,2,Basilicata,16.0,Potenza,76.0
+06/03/2020,total_p,1,Basilicata,16.0,Matera,77.0
+06/03/2020,total_p,7,Valle d'Aosta/Vallée d'Aoste,1.0,Valle d'Aosta/Vallée d'Aoste,7.0
+06/03/2020,total_p,1,Calabria,17.0,Cosenza,78.0
+06/03/2020,total_p,2,Calabria,17.0,Catanzaro,79.0
+06/03/2020,hospitalized,1622,Lombardia,2.0,,
+06/03/2020,hospitalized_intensive,309,Lombardia,2.0,,
+06/03/2020,self_isolation,77,Lombardia,2.0,,
+06/03/2020,positive,2008,Lombardia,2.0,,
+06/03/2020,discharged,469,Lombardia,2.0,,
+06/03/2020,deceased,135,Lombardia,2.0,,
+06/03/2020,total,2612,Lombardia,2.0,,
+06/03/2020,tested,13556,Lombardia,2.0,,
+06/03/2020,hospitalized,397,Emilia-Romagna,7.0,,
+06/03/2020,hospitalized_intensive,53,Emilia-Romagna,7.0,,
+06/03/2020,self_isolation,366,Emilia-Romagna,7.0,,
+06/03/2020,positive,816,Emilia-Romagna,7.0,,
+06/03/2020,discharged,17,Emilia-Romagna,7.0,,
+06/03/2020,deceased,37,Emilia-Romagna,7.0,,
+06/03/2020,total,870,Emilia-Romagna,7.0,,
+06/03/2020,tested,3136,Emilia-Romagna,7.0,,
+06/03/2020,hospitalized,117,Veneto,4.0,,
+06/03/2020,hospitalized_intensive,27,Veneto,4.0,,
+06/03/2020,self_isolation,310,Veneto,4.0,,
+06/03/2020,positive,454,Veneto,4.0,,
+06/03/2020,discharged,22,Veneto,4.0,,
+06/03/2020,deceased,12,Veneto,4.0,,
+06/03/2020,total,488,Veneto,4.0,,
+06/03/2020,tested,13023,Veneto,4.0,,
+06/03/2020,hospitalized,73,Marche,10.0,,
+06/03/2020,hospitalized_intensive,20,Marche,10.0,,
+06/03/2020,self_isolation,62,Marche,10.0,,
+06/03/2020,positive,155,Marche,10.0,,
+06/03/2020,discharged,0,Marche,10.0,,
+06/03/2020,deceased,4,Marche,10.0,,
+06/03/2020,total,159,Marche,10.0,,
+06/03/2020,tested,585,Marche,10.0,,
+06/03/2020,hospitalized,57,Piemonte,0.0,,
+06/03/2020,hospitalized_intensive,30,Piemonte,0.0,,
+06/03/2020,self_isolation,52,Piemonte,0.0,,
+06/03/2020,positive,139,Piemonte,0.0,,
+06/03/2020,discharged,0,Piemonte,0.0,,
+06/03/2020,deceased,4,Piemonte,0.0,,
+06/03/2020,total,143,Piemonte,0.0,,
+06/03/2020,tested,793,Piemonte,0.0,,
+06/03/2020,hospitalized,35,Toscana,8.0,,
+06/03/2020,hospitalized_intensive,5,Toscana,8.0,,
+06/03/2020,self_isolation,38,Toscana,8.0,,
+06/03/2020,positive,78,Toscana,8.0,,
+06/03/2020,discharged,1,Toscana,8.0,,
+06/03/2020,deceased,0,Toscana,8.0,,
+06/03/2020,total,79,Toscana,8.0,,
+06/03/2020,tested,1097,Toscana,8.0,,
+06/03/2020,hospitalized,26,Lazio,11.0,,
+06/03/2020,hospitalized_intensive,8,Lazio,11.0,,
+06/03/2020,self_isolation,16,Lazio,11.0,,
+06/03/2020,positive,50,Lazio,11.0,,
+06/03/2020,discharged,3,Lazio,11.0,,
+06/03/2020,deceased,1,Lazio,11.0,,
+06/03/2020,total,54,Lazio,11.0,,
+06/03/2020,tested,1373,Lazio,11.0,,
+06/03/2020,hospitalized,12,Campania,14.0,,
+06/03/2020,hospitalized_intensive,0,Campania,14.0,,
+06/03/2020,self_isolation,45,Campania,14.0,,
+06/03/2020,positive,57,Campania,14.0,,
+06/03/2020,discharged,0,Campania,14.0,,
+06/03/2020,deceased,0,Campania,14.0,,
+06/03/2020,total,57,Campania,14.0,,
+06/03/2020,tested,471,Campania,14.0,,
+06/03/2020,hospitalized,12,Liguria,6.0,,
+06/03/2020,hospitalized_intensive,5,Liguria,6.0,,
+06/03/2020,self_isolation,7,Liguria,6.0,,
+06/03/2020,positive,24,Liguria,6.0,,
+06/03/2020,discharged,5,Liguria,6.0,,
+06/03/2020,deceased,3,Liguria,6.0,,
+06/03/2020,total,32,Liguria,6.0,,
+06/03/2020,tested,229,Liguria,6.0,,
+06/03/2020,hospitalized,4,Friuli-Venezia Giulia,5.0,,
+06/03/2020,hospitalized_intensive,0,Friuli-Venezia Giulia,5.0,,
+06/03/2020,self_isolation,24,Friuli-Venezia Giulia,5.0,,
+06/03/2020,positive,28,Friuli-Venezia Giulia,5.0,,
+06/03/2020,discharged,3,Friuli-Venezia Giulia,5.0,,
+06/03/2020,deceased,0,Friuli-Venezia Giulia,5.0,,
+06/03/2020,total,31,Friuli-Venezia Giulia,5.0,,
+06/03/2020,tested,577,Friuli-Venezia Giulia,5.0,,
+06/03/2020,hospitalized,7,Sicilia,18.0,,
+06/03/2020,hospitalized_intensive,0,Sicilia,18.0,,
+06/03/2020,self_isolation,15,Sicilia,18.0,,
+06/03/2020,positive,22,Sicilia,18.0,,
+06/03/2020,discharged,2,Sicilia,18.0,,
+06/03/2020,deceased,0,Sicilia,18.0,,
+06/03/2020,total,24,Sicilia,18.0,,
+06/03/2020,tested,367,Sicilia,18.0,,
+06/03/2020,hospitalized,5,Puglia,15.0,,
+06/03/2020,hospitalized_intensive,1,Puglia,15.0,,
+06/03/2020,self_isolation,9,Puglia,15.0,,
+06/03/2020,positive,15,Puglia,15.0,,
+06/03/2020,discharged,1,Puglia,15.0,,
+06/03/2020,deceased,1,Puglia,15.0,,
+06/03/2020,total,17,Puglia,15.0,,
+06/03/2020,tested,395,Puglia,15.0,,
+06/03/2020,hospitalized,2,Umbria,9.0,,
+06/03/2020,hospitalized_intensive,2,Umbria,9.0,,
+06/03/2020,self_isolation,12,Umbria,9.0,,
+06/03/2020,positive,16,Umbria,9.0,,
+06/03/2020,discharged,0,Umbria,9.0,,
+06/03/2020,deceased,0,Umbria,9.0,,
+06/03/2020,total,16,Umbria,9.0,,
+06/03/2020,tested,110,Umbria,9.0,,
+06/03/2020,hospitalized,3,Molise,13.0,,
+06/03/2020,hospitalized_intensive,2,Molise,13.0,,
+06/03/2020,self_isolation,7,Molise,13.0,,
+06/03/2020,positive,12,Molise,13.0,,
+06/03/2020,discharged,0,Molise,13.0,,
+06/03/2020,deceased,0,Molise,13.0,,
+06/03/2020,total,12,Molise,13.0,,
+06/03/2020,tested,104,Molise,13.0,,
+06/03/2020,hospitalized,8,Trentino-Alto Adige/Südtirol,3.0,,
+06/03/2020,hospitalized_intensive,0,Trentino-Alto Adige/Südtirol,3.0,,
+06/03/2020,self_isolation,6,Trentino-Alto Adige/Südtirol,3.0,,
+06/03/2020,positive,14,Trentino-Alto Adige/Südtirol,3.0,,
+06/03/2020,discharged,0,Trentino-Alto Adige/Südtirol,3.0,,
+06/03/2020,deceased,0,Trentino-Alto Adige/Südtirol,3.0,,
+06/03/2020,total,14,Trentino-Alto Adige/Südtirol,3.0,,
+06/03/2020,tested,158,Trentino-Alto Adige/Südtirol,3.0,,
+06/03/2020,hospitalized,9,Abruzzo,12.0,,
+06/03/2020,hospitalized_intensive,0,Abruzzo,12.0,,
+06/03/2020,self_isolation,0,Abruzzo,12.0,,
+06/03/2020,positive,9,Abruzzo,12.0,,
+06/03/2020,discharged,0,Abruzzo,12.0,,
+06/03/2020,deceased,0,Abruzzo,12.0,,
+06/03/2020,total,9,Abruzzo,12.0,,
+06/03/2020,tested,96,Abruzzo,12.0,,
+06/03/2020,hospitalized,2,Sardegna,19.0,,
+06/03/2020,hospitalized_intensive,0,Sardegna,19.0,,
+06/03/2020,self_isolation,3,Sardegna,19.0,,
+06/03/2020,positive,5,Sardegna,19.0,,
+06/03/2020,discharged,0,Sardegna,19.0,,
+06/03/2020,deceased,0,Sardegna,19.0,,
+06/03/2020,total,5,Sardegna,19.0,,
+06/03/2020,tested,99,Sardegna,19.0,,
+06/03/2020,hospitalized,1,Basilicata,16.0,,
+06/03/2020,hospitalized_intensive,0,Basilicata,16.0,,
+06/03/2020,self_isolation,2,Basilicata,16.0,,
+06/03/2020,positive,3,Basilicata,16.0,,
+06/03/2020,discharged,0,Basilicata,16.0,,
+06/03/2020,deceased,0,Basilicata,16.0,,
+06/03/2020,total,3,Basilicata,16.0,,
+06/03/2020,tested,63,Basilicata,16.0,,
+06/03/2020,hospitalized,0,Valle d'Aosta/Vallée d'Aoste,1.0,,
+06/03/2020,hospitalized_intensive,0,Valle d'Aosta/Vallée d'Aoste,1.0,,
+06/03/2020,self_isolation,7,Valle d'Aosta/Vallée d'Aoste,1.0,,
+06/03/2020,positive,7,Valle d'Aosta/Vallée d'Aoste,1.0,,
+06/03/2020,discharged,0,Valle d'Aosta/Vallée d'Aoste,1.0,,
+06/03/2020,deceased,0,Valle d'Aosta/Vallée d'Aoste,1.0,,
+06/03/2020,total,7,Valle d'Aosta/Vallée d'Aoste,1.0,,
+06/03/2020,tested,28,Valle d'Aosta/Vallée d'Aoste,1.0,,
+06/03/2020,hospitalized,2,Calabria,17.0,,
+06/03/2020,hospitalized_intensive,0,Calabria,17.0,,
+06/03/2020,self_isolation,2,Calabria,17.0,,
+06/03/2020,positive,4,Calabria,17.0,,
+06/03/2020,discharged,0,Calabria,17.0,,
+06/03/2020,deceased,0,Calabria,17.0,,
+06/03/2020,total,4,Calabria,17.0,,
+06/03/2020,tested,99,Calabria,17.0,,
 06/03/2020,hospitalized,2394,Italia,,,
 06/03/2020,hospitalized_intensive,462,Italia,,,
 06/03/2020,self_isolation,0,Italia,,,
@@ -1404,3 +1404,264 @@ Date,Type,Value,reg_name,reg_istat_code_num,prov_name,prov_istat_code_num
 06/03/2020,deceased,197,Italia,,,
 06/03/2020,total,4636,Italia,,,
 06/03/2020,tested,36359,Italia,,,
+07/03/2020,total_p,623,Lombardia,2.0,Bergamo,16
+07/03/2020,total_p,739,Lombardia,2.0,Lodi,98
+07/03/2020,total_p,452,Lombardia,2.0,Cremona,19
+07/03/2020,testing,68,Lombardia,2.0,,
+07/03/2020,total_p,180,Lombardia,2.0,Pavia,18
+07/03/2020,total_p,182,Lombardia,2.0,Brescia,17
+07/03/2020,total_p,267,Lombardia,2.0,Milano,15
+07/03/2020,total_p,20,Lombardia,2.0,Monza e della Brianza,108
+07/03/2020,total_p,32,Lombardia,2.0,Mantova,20
+07/03/2020,total_p,23,Lombardia,2.0,Varese,12
+07/03/2020,total_p,4,Lombardia,2.0,Sondrio,14
+07/03/2020,total_p,11,Lombardia,2.0,Como,13
+07/03/2020,total_p,11,Lombardia,2.0,Lecco,97
+07/03/2020,total_p,426,Emilia-Romagna,7.0,Piacenza,33
+07/03/2020,total_p,181,Emilia-Romagna,7.0,Parma,34
+07/03/2020,total_p,73,Emilia-Romagna,7.0,Modena,36
+07/03/2020,total_p,93,Emilia-Romagna,7.0,Rimini,99
+07/03/2020,total_p,44,Emilia-Romagna,7.0,Reggio nell'Emilia,35
+07/03/2020,total_p,41,Emilia-Romagna,7.0,Bologna,37
+07/03/2020,total_p,8,Emilia-Romagna,7.0,Ravenna,39
+07/03/2020,total_p,3,Emilia-Romagna,7.0,Forlì-Cesena,40
+07/03/2020,total_p,1,Emilia-Romagna,7.0,Ferrara,38
+07/03/2020,testing,0,Emilia-Romagna,7.0,,
+07/03/2020,total_p,198,Veneto,4.0,Padova,28
+07/03/2020,total_p,103,Veneto,4.0,Treviso,26
+07/03/2020,total_p,85,Veneto,4.0,Venezia,27
+07/03/2020,total_p,42,Veneto,4.0,Verona,23
+07/03/2020,testing,24,Veneto,4.0,,
+07/03/2020,total_p,24,Veneto,4.0,Vicenza,24
+07/03/2020,total_p,7,Veneto,4.0,Belluno,25
+07/03/2020,total_p,5,Veneto,4.0,Rovigo,29
+07/03/2020,total_p,126,Marche,10.0,Pesaro e Urbino,41
+07/03/2020,total_p,23,Marche,10.0,Ancona,42
+07/03/2020,total_p,7,Marche,10.0,Macerata,43
+07/03/2020,total_p,3,Marche,10.0,Fermo,109
+07/03/2020,total_p,34,Piemonte,0.0,Torino,1
+07/03/2020,total_p,4,Piemonte,0.0,Novara,3
+07/03/2020,total_p,47,Piemonte,0.0,Asti,5
+07/03/2020,total_p,7,Piemonte,0.0,Vercelli,2
+07/03/2020,total_p,32,Piemonte,0.0,Alessandria,6
+07/03/2020,total_p,9,Piemonte,0.0,Verbano-Cusio-Ossola,103
+07/03/2020,total_p,3,Piemonte,0.0,Biella,96
+07/03/2020,total_p,1,Piemonte,0.0,Cuneo,4
+07/03/2020,testing,6,Piemonte,0.0,,
+07/03/2020,total_p,23,Toscana,8.0,Firenze,48
+07/03/2020,total_p,14,Toscana,8.0,Siena,52
+07/03/2020,total_p,10,Toscana,8.0,Massa-Carrara,45
+07/03/2020,total_p,1,Toscana,8.0,Pistoia,47
+07/03/2020,total_p,8,Toscana,8.0,Lucca,46
+07/03/2020,total_p,7,Toscana,8.0,Arezzo,51
+07/03/2020,total_p,8,Toscana,8.0,Pisa,50
+07/03/2020,total_p,5,Toscana,8.0,Livorno,49
+07/03/2020,total_p,1,Toscana,8.0,Prato,100
+07/03/2020,total_p,2,Toscana,8.0,Grosseto,53
+07/03/2020,total_p,17,Campania,14.0,Napoli,63
+07/03/2020,testing,40,Campania,14.0,,
+07/03/2020,total_p,49,Lazio,11.0,Roma,58
+07/03/2020,total_p,1,Lazio,11.0,Frosinone,60
+07/03/2020,total_p,2,Lazio,11.0,Viterbo,56
+07/03/2020,total_p,2,Lazio,11.0,Latina,59
+07/03/2020,total_p,15,Liguria,6.0,Savona,9
+07/03/2020,total_p,3,Liguria,6.0,Imperia,8
+07/03/2020,total_p,9,Liguria,6.0,Genova,10
+07/03/2020,total_p,1,Liguria,6.0,La Spezia,11
+07/03/2020,testing,4,Liguria,6.0,,
+07/03/2020,total_p,7,Friuli-Venezia Giulia,5.0,Trieste,32
+07/03/2020,total_p,6,Friuli-Venezia Giulia,5.0,Gorizia,31
+07/03/2020,total_p,18,Friuli-Venezia Giulia,5.0,Udine,30
+07/03/2020,total_p,5,Sicilia,18.0,Palermo,82
+07/03/2020,total_p,1,Sicilia,18.0,Enna,86
+07/03/2020,total_p,15,Sicilia,18.0,Catania,87
+07/03/2020,total_p,1,Sicilia,18.0,Ragusa,88
+07/03/2020,total_p,2,Sicilia,18.0,Siracusa,89
+07/03/2020,total_p,3,Puglia,15.0,Taranto,73
+07/03/2020,total_p,3,Puglia,15.0,Bari,72
+07/03/2020,total_p,1,Puglia,15.0,Barletta-Andria-Trani,110
+07/03/2020,total_p,3,Puglia,15.0,Lecce,75
+07/03/2020,total_p,7,Puglia,15.0,Foggia,71
+07/03/2020,total_p,10,Umbria,9.0,Perugia,54
+07/03/2020,total_p,6,Umbria,9.0,Terni,55
+07/03/2020,total_p,4,Abruzzo,12.0,Teramo,67
+07/03/2020,total_p,1,Abruzzo,12.0,Pescara,68
+07/03/2020,total_p,3,Abruzzo,12.0,Chieti,69
+07/03/2020,total_p,12,Molise,13.0,Campobasso,70
+07/03/2020,total_p,4,Trentino-Alto Adige/Südtirol,3.0,Bolzano/Bozen,21
+07/03/2020,total_p,10,Trentino-Alto Adige/Südtirol,3.0,Trento,22
+07/03/2020,total_p,3,Sardegna,19.0,Cagliari,92
+07/03/2020,total_p,2,Sardegna,19.0,Nuoro,91
+07/03/2020,total_p,2,Basilicata,16.0,Potenza,76
+07/03/2020,total_p,1,Basilicata,16.0,Matera,77
+07/03/2020,total_p,7,Valle d'Aosta/Vallée d'Aoste,1.0,Valle d'Aosta/Vallée d'Aoste,7
+07/03/2020,total_p,1,Calabria,17.0,Cosenza,78
+07/03/2020,total_p,2,Calabria,17.0,Catanzaro,79
+07/03/2020,hospitalized,1622,Lombardia,2,,
+07/03/2020,hospitalized_intensive,309,Lombardia,2,,
+07/03/2020,self_isolation,77,Lombardia,2,,
+07/03/2020,positive,2008,Lombardia,2,,
+07/03/2020,discharged,469,Lombardia,2,,
+07/03/2020,deceased,135,Lombardia,2,,
+07/03/2020,total,2612,Lombardia,2,,
+07/03/2020,tested,13556,Lombardia,2,,
+07/03/2020,hospitalized,397,Emilia-Romagna,7,,
+07/03/2020,hospitalized_intensive,53,Emilia-Romagna,7,,
+07/03/2020,self_isolation,366,Emilia-Romagna,7,,
+07/03/2020,positive,816,Emilia-Romagna,7,,
+07/03/2020,discharged,17,Emilia-Romagna,7,,
+07/03/2020,deceased,37,Emilia-Romagna,7,,
+07/03/2020,total,870,Emilia-Romagna,7,,
+07/03/2020,tested,3136,Emilia-Romagna,7,,
+07/03/2020,hospitalized,117,Veneto,4,,
+07/03/2020,hospitalized_intensive,27,Veneto,4,,
+07/03/2020,self_isolation,310,Veneto,4,,
+07/03/2020,positive,454,Veneto,4,,
+07/03/2020,discharged,22,Veneto,4,,
+07/03/2020,deceased,12,Veneto,4,,
+07/03/2020,total,488,Veneto,4,,
+07/03/2020,tested,13023,Veneto,4,,
+07/03/2020,hospitalized,73,Marche,10,,
+07/03/2020,hospitalized_intensive,20,Marche,10,,
+07/03/2020,self_isolation,62,Marche,10,,
+07/03/2020,positive,155,Marche,10,,
+07/03/2020,discharged,0,Marche,10,,
+07/03/2020,deceased,4,Marche,10,,
+07/03/2020,total,159,Marche,10,,
+07/03/2020,tested,585,Marche,10,,
+07/03/2020,hospitalized,57,Piemonte,0,,
+07/03/2020,hospitalized_intensive,30,Piemonte,0,,
+07/03/2020,self_isolation,52,Piemonte,0,,
+07/03/2020,positive,139,Piemonte,0,,
+07/03/2020,discharged,0,Piemonte,0,,
+07/03/2020,deceased,4,Piemonte,0,,
+07/03/2020,total,143,Piemonte,0,,
+07/03/2020,tested,793,Piemonte,0,,
+07/03/2020,hospitalized,35,Toscana,8,,
+07/03/2020,hospitalized_intensive,5,Toscana,8,,
+07/03/2020,self_isolation,38,Toscana,8,,
+07/03/2020,positive,78,Toscana,8,,
+07/03/2020,discharged,1,Toscana,8,,
+07/03/2020,deceased,0,Toscana,8,,
+07/03/2020,total,79,Toscana,8,,
+07/03/2020,tested,1097,Toscana,8,,
+07/03/2020,hospitalized,26,Lazio,11,,
+07/03/2020,hospitalized_intensive,8,Lazio,11,,
+07/03/2020,self_isolation,16,Lazio,11,,
+07/03/2020,positive,50,Lazio,11,,
+07/03/2020,discharged,3,Lazio,11,,
+07/03/2020,deceased,1,Lazio,11,,
+07/03/2020,total,54,Lazio,11,,
+07/03/2020,tested,1373,Lazio,11,,
+07/03/2020,hospitalized,12,Campania,14,,
+07/03/2020,hospitalized_intensive,0,Campania,14,,
+07/03/2020,self_isolation,45,Campania,14,,
+07/03/2020,positive,57,Campania,14,,
+07/03/2020,discharged,0,Campania,14,,
+07/03/2020,deceased,0,Campania,14,,
+07/03/2020,total,57,Campania,14,,
+07/03/2020,tested,471,Campania,14,,
+07/03/2020,hospitalized,12,Liguria,6,,
+07/03/2020,hospitalized_intensive,5,Liguria,6,,
+07/03/2020,self_isolation,7,Liguria,6,,
+07/03/2020,positive,24,Liguria,6,,
+07/03/2020,discharged,5,Liguria,6,,
+07/03/2020,deceased,3,Liguria,6,,
+07/03/2020,total,32,Liguria,6,,
+07/03/2020,tested,229,Liguria,6,,
+07/03/2020,hospitalized,4,Friuli-Venezia Giulia,5,,
+07/03/2020,hospitalized_intensive,0,Friuli-Venezia Giulia,5,,
+07/03/2020,self_isolation,24,Friuli-Venezia Giulia,5,,
+07/03/2020,positive,28,Friuli-Venezia Giulia,5,,
+07/03/2020,discharged,3,Friuli-Venezia Giulia,5,,
+07/03/2020,deceased,0,Friuli-Venezia Giulia,5,,
+07/03/2020,total,31,Friuli-Venezia Giulia,5,,
+07/03/2020,tested,577,Friuli-Venezia Giulia,5,,
+07/03/2020,hospitalized,7,Sicilia,18,,
+07/03/2020,hospitalized_intensive,0,Sicilia,18,,
+07/03/2020,self_isolation,15,Sicilia,18,,
+07/03/2020,positive,22,Sicilia,18,,
+07/03/2020,discharged,2,Sicilia,18,,
+07/03/2020,deceased,0,Sicilia,18,,
+07/03/2020,total,24,Sicilia,18,,
+07/03/2020,tested,367,Sicilia,18,,
+07/03/2020,hospitalized,5,Puglia,15,,
+07/03/2020,hospitalized_intensive,1,Puglia,15,,
+07/03/2020,self_isolation,9,Puglia,15,,
+07/03/2020,positive,15,Puglia,15,,
+07/03/2020,discharged,1,Puglia,15,,
+07/03/2020,deceased,1,Puglia,15,,
+07/03/2020,total,17,Puglia,15,,
+07/03/2020,tested,395,Puglia,15,,
+07/03/2020,hospitalized,2,Umbria,9,,
+07/03/2020,hospitalized_intensive,2,Umbria,9,,
+07/03/2020,self_isolation,12,Umbria,9,,
+07/03/2020,positive,16,Umbria,9,,
+07/03/2020,discharged,0,Umbria,9,,
+07/03/2020,deceased,0,Umbria,9,,
+07/03/2020,total,16,Umbria,9,,
+07/03/2020,tested,110,Umbria,9,,
+07/03/2020,hospitalized,3,Molise,13,,
+07/03/2020,hospitalized_intensive,2,Molise,13,,
+07/03/2020,self_isolation,7,Molise,13,,
+07/03/2020,positive,12,Molise,13,,
+07/03/2020,discharged,0,Molise,13,,
+07/03/2020,deceased,0,Molise,13,,
+07/03/2020,total,12,Molise,13,,
+07/03/2020,tested,104,Molise,13,,
+07/03/2020,hospitalized,8,Trentino-Alto Adige/Südtirol,3,,
+07/03/2020,hospitalized_intensive,0,Trentino-Alto Adige/Südtirol,3,,
+07/03/2020,self_isolation,6,Trentino-Alto Adige/Südtirol,3,,
+07/03/2020,positive,14,Trentino-Alto Adige/Südtirol,3,,
+07/03/2020,discharged,0,Trentino-Alto Adige/Südtirol,3,,
+07/03/2020,deceased,0,Trentino-Alto Adige/Südtirol,3,,
+07/03/2020,total,14,Trentino-Alto Adige/Südtirol,3,,
+07/03/2020,tested,158,Trentino-Alto Adige/Südtirol,3,,
+07/03/2020,hospitalized,9,Abruzzo,12,,
+07/03/2020,hospitalized_intensive,0,Abruzzo,12,,
+07/03/2020,self_isolation,0,Abruzzo,12,,
+07/03/2020,positive,9,Abruzzo,12,,
+07/03/2020,discharged,0,Abruzzo,12,,
+07/03/2020,deceased,0,Abruzzo,12,,
+07/03/2020,total,9,Abruzzo,12,,
+07/03/2020,tested,96,Abruzzo,12,,
+07/03/2020,hospitalized,2,Sardegna,19,,
+07/03/2020,hospitalized_intensive,0,Sardegna,19,,
+07/03/2020,self_isolation,3,Sardegna,19,,
+07/03/2020,positive,5,Sardegna,19,,
+07/03/2020,discharged,0,Sardegna,19,,
+07/03/2020,deceased,0,Sardegna,19,,
+07/03/2020,total,5,Sardegna,19,,
+07/03/2020,tested,99,Sardegna,19,,
+07/03/2020,hospitalized,1,Basilicata,16,,
+07/03/2020,hospitalized_intensive,0,Basilicata,16,,
+07/03/2020,self_isolation,2,Basilicata,16,,
+07/03/2020,positive,3,Basilicata,16,,
+07/03/2020,discharged,0,Basilicata,16,,
+07/03/2020,deceased,0,Basilicata,16,,
+07/03/2020,total,3,Basilicata,16,,
+07/03/2020,tested,63,Basilicata,16,,
+07/03/2020,hospitalized,0,Valle d'Aosta/Vallée d'Aoste,1,,
+07/03/2020,hospitalized_intensive,0,Valle d'Aosta/Vallée d'Aoste,1,,
+07/03/2020,self_isolation,7,Valle d'Aosta/Vallée d'Aoste,1,,
+07/03/2020,positive,7,Valle d'Aosta/Vallée d'Aoste,1,,
+07/03/2020,discharged,0,Valle d'Aosta/Vallée d'Aoste,1,,
+07/03/2020,deceased,0,Valle d'Aosta/Vallée d'Aoste,1,,
+07/03/2020,total,7,Valle d'Aosta/Vallée d'Aoste,1,,
+07/03/2020,tested,28,Valle d'Aosta/Vallée d'Aoste,1,,
+07/03/2020,hospitalized,2,Calabria,17,,
+07/03/2020,hospitalized_intensive,0,Calabria,17,,
+07/03/2020,self_isolation,2,Calabria,17,,
+07/03/2020,positive,4,Calabria,17,,
+07/03/2020,discharged,0,Calabria,17,,
+07/03/2020,deceased,0,Calabria,17,,
+07/03/2020,total,4,Calabria,17,,
+07/03/2020,tested,99,Calabria,17,,
+07/03/2020,hospitalized,2394,Italia,,,
+07/03/2020,hospitalized_intensive,462,Italia,,,
+07/03/2020,self_isolation,0,Italia,,,
+07/03/2020,positive,3916,Italia,,,
+07/03/2020,discharged,523,Italia,,,
+07/03/2020,deceased,197,Italia,,,
+07/03/2020,total,4636,Italia,,,
+07/03/2020,tested,36359,Italia,,,

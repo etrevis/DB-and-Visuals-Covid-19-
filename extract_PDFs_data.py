@@ -11,7 +11,7 @@ import pandas as pd
 file_folder = os.path.join('Data','PDFs')
 
 #the script works date-by-date and fetches the correct pdfs automaticaly, just set the date here
-date = '06/03/2020'
+date = '07/03/2020'
 
 #this is some stuff I will use later for choropleth mapping
 reg_list = [[0,'Piemonte'],[1,'Valle d\'Aosta/Vallée d\'Aoste'],[2,'Lombardia'],[3,'Trentino-Alto Adige/Südtirol'],[4,'Veneto'],[5,'Friuli-Venezia Giulia'],[6,'Liguria'],[7,'Emilia-Romagna'],[8,'Toscana'],[9,'Umbria'],[10,'Marche'],[11,'Lazio'],[12,'Abruzzo'],[13,'Molise'],[14,'Campania'],[15,'Puglia'],[16,'Basilicata'],[17,'Calabria'],[18,'Sicilia'],[19,'Sardegna']]
