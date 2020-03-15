@@ -1,8 +1,6 @@
 import pandas as pd; pd.set_option('max_columns', 5)  # Unclutter display.
 import geopandas as gpd
 import geoplot as gplt
-# for some reason choropleth raises an error if any projection is used 
-import geoplot.crs as gcrs 
 import os
 import matplotlib.pyplot as plt
 import matplotlib as mpl
@@ -28,36 +26,49 @@ def return_ylims(ylims):
     else:
         return (0,int(ymax))
 
+def y_fmt(y,pos):
+    if y > 0:
+        return '{}k'.format(int(y/1000))
+    elif y == 0:
+        return 0
 
 
 
-
-def generate_pngs(date_limit, date, date_re, df, df_ita, df_rg):
+def generate_pngs(date_limit, date, date_re, df, df_ita, df_rg, df_map_rzones):
     fig = plt.figure(figsize=(12,16), dpi=150,constrained_layout=True)
     gs = fig.add_gridspec(2,3,**{'height_ratios': [4,1], 'hspace':0.1, 'wspace': 0.3  })
-    gs1 = gs[1].subgridspec(1, 3)
     df_prov = get_daily_df(date, df)
 
     #map plotting to ax1 ------------------------------------------------------------------
-    ax1 = fig.add_subplot(gs[0,:], projection=gcrs.EuroPP())
-    plt.text(1, 0, 'r/etrevis     github.com/etrevis \nfonte: protezionecivile.gov.it', color='tab:gray',fontsize=12, rotation=90, transform=ax1.transAxes)
+    ax1 = fig.add_subplot(gs[0,:], projection=gplt.crs.EuroPP())
+    plt.text(1, 0.6, 'u/etrevis  github.com/etrevis \nfonte: protezionecivile.gov.it', color='tab:gray',fontsize=12, rotation=90, transform=ax1.transAxes)
     plt.text(0.075, 0.17, str('Data: {}/{}/{}'.format(date[8:10],date[5:7],date[:4])), fontsize=20, horizontalalignment='center', verticalalignment='center', transform=ax1.transAxes)
-    cax = fig.add_axes([0.75,0.6,0.015,0.25])
-    
+    cax = fig.add_axes([0.7,0.65,0.015,0.2])
+      
     gplt.choropleth(df_prov,
-                    extent = (6.8,36.6,18.2,47),
+                    extent = extent, 
                     ax=ax1,
                     figsize = (12,12),
                     hue='totale_casi',
                     cmap=cmap.cmap,
                     norm = norm,
                     edgecolor='black',
-                    linewidth=0.4,
+                    linewidth=0.6,
                    )
+  
+    
+    if date_limit < 12:
+        gplt.polyplot(df_map_rzones.loc[:10], ax=ax1, extent = extent, edgecolor='red', linewidth=1.2, zorder=2)
+    elif date_limit < 14:
+        gplt.polyplot(df_map_rzones.loc[20:34], ax=ax1, extent = extent, edgecolor='red', linewidth=1.6, zorder=2)
+    else:
+        gplt.polyplot(df_map_rzones.loc[35:36],  ax=ax1, extent = extent, edgecolor='red', linewidth=1.6, zorder=2)
+    
+    
     cbar = plt.gcf().colorbar(cmap, ax=ax1, cax = cax, **{'extend': 'max'})
 
     cbar.outline.set_linewidth(1)
-    cbar.set_label('Totale positivi', rotation=90, labelpad=-90, size=20)
+    cbar.set_label('Totale positivi', rotation=90, labelpad=-80, size=20)
     cbar.ax.tick_params(labelsize=24, labelcolor = 'black', width=1)
 
     #custom ax2 general ----------------------------------------------------------------------
@@ -73,7 +84,7 @@ def generate_pngs(date_limit, date, date_re, df, df_ita, df_rg):
                   ['Dimessi:  ', 'dimessi_guariti'],
                   ['Decessi:  ','deceduti' ]
                  ]    
-    label_colors = plt.get_cmap('viridis_r')(np.linspace(0, 0.8,(len(label_list)+1)))
+    label_colors = plt.get_cmap(map_col)(np.linspace(color_limits[0], color_limits[1],(len(label_list)+1)))
 
     for label, color in zip(label_list, label_colors):
         plt.plot(date_axis,
@@ -82,16 +93,18 @@ def generate_pngs(date_limit, date, date_re, df, df_ita, df_rg):
                  color=color,
                  **marker_style)
 
+    ax2.yaxis.set_major_formatter(mpl.ticker.FuncFormatter(y_fmt))
     ax2.spines['top'].set_visible(False)
     ax2.spines['right'].set_visible(False)
     ax2.spines['bottom'].set_linewidth(line_wd)
     ax2.spines['left'].set_linewidth(line_wd)
     ax2.tick_params(labelsize=labels_sz, labelcolor = 'black', width=1)
-    ax2.legend(**dict(fontsize=labels_sz, markerscale=1.1, frameon=False, loc='center', bbox_to_anchor=(0.5, 1.45)))
+    ax2.legend(**dict(fontsize=labels_sz, markerscale=1.2, frameon=False, loc='center', bbox_to_anchor=(0.5, 1.45)))
     
     # Y-axis
     plt.ylim(return_ylims(int(df_ita['totale_casi'].max())))   #or ax2.get_ylim()
     ax2.yaxis.set_major_locator(mpl.ticker.LinearLocator(numticks=5))
+    #ax2.set_yscale('log')
     
     #X- Axis
     ax2.set_xlim(left=df_ita['data'][1],
@@ -101,7 +114,8 @@ def generate_pngs(date_limit, date, date_re, df, df_ita, df_rg):
     ax2.set_xmargin(0.05)
     ax2.xaxis.set_major_formatter(mpl.dates.DateFormatter('%d/%m'))
     ax2.xaxis.set_tick_params(rotation=70)
-    ax2.xaxis.set_major_locator(mpl.ticker.MultipleLocator(2))
+    ax2.xaxis.set_major_locator(mpl.ticker.MultipleLocator(3))
+    
     
     
     #histrogram regions ax4 -----------------------------------------------------------------------------
@@ -116,8 +130,7 @@ def generate_pngs(date_limit, date, date_re, df, df_ita, df_rg):
     label_list_reg = [['Ospedaliz.', 'totale_ospedalizzati'],
                       ['Autoisolam.', 'isolamento_domiciliare'],
                       ['Dimessi', 'dimessi_guariti'],
-                      ['Decessi','deceduti' ]
-                     ]
+                      ['Decessi','deceduti' ]]
  
     df_data_reg = []
     store_y_top = [0 for i in range(len(x_ind))]
@@ -133,28 +146,25 @@ def generate_pngs(date_limit, date, date_re, df, df_ita, df_rg):
         df_data_reg.append(pd.DataFrame({'x': [i for i in range(len(x_ind))], 'y_bottom': y_bottom, 'y_top': y_top}))
            
 
-    label_colors_reg = plt.get_cmap('YlOrRd')(np.linspace(0.1, 1,(len(label_list_reg)+1)))
+    label_colors_reg = plt.get_cmap(map_col)(np.linspace(color_limits[0], color_limits[1],(len(label_list_reg)+1)))
 
     
     ax4 = fig.add_subplot(gs[1,1])    
     
     #for some reason iterating over the zipped lists and using the bottomparameter does not work in my env
     
-    ax4.bar(df_data_reg[3]['x'], df_data_reg[3]['y_top'],
-            #bottom=df_data_reg[3]['y_bottom'],
+    ax4.bar(df_data_reg[3]['x'], df_data_reg[3]['y_top'], #bottom=df_data_reg[3]['y_bottom'],
             label=label_list_reg[3][0], width=0.95, align='center', color=label_colors_reg[3]) 
-    ax4.bar(df_data_reg[2]['x'], df_data_reg[2]['y_top'],
-            #bottom=df_data_reg[2]['y_bottom'],
+    ax4.bar(df_data_reg[2]['x'], df_data_reg[2]['y_top'], #bottom=df_data_reg[2]['y_bottom'],
             label=label_list_reg[2][0], width=0.95, align='center', color=label_colors_reg[2])
-    ax4.bar(df_data_reg[1]['x'], df_data_reg[1]['y_top'],
-            #bottom=df_data_reg[1]['y_bottom'],
+    ax4.bar(df_data_reg[1]['x'], df_data_reg[1]['y_top'], #bottom=df_data_reg[1]['y_bottom'],
             label=label_list_reg[1][0], width=0.95, align='center', color=label_colors_reg[1])
     ax4.bar(df_data_reg[0]['x'], df_data_reg[0]['y_top'],
             #bottom=df_data_reg[0]['y_bottom'],
             label=label_list_reg[0][0], width=0.95, align='center', color=label_colors_reg[0])
 
-
-    ax4.legend(**dict(fontsize=(labels_sz-6), markerscale=0.2, frameon=False, loc='center', bbox_to_anchor=(0.65, 0.8)))    
+    ax4.yaxis.set_major_formatter(mpl.ticker.FuncFormatter(y_fmt))
+    ax4.legend(**dict(fontsize=(labels_sz-6), frameon=False, loc='center', bbox_to_anchor=(0.65, 0.8)))    
     ax4.spines['top'].set_visible(False)
     ax4.spines['right'].set_visible(False)
     ax4.spines['bottom'].set_linewidth(line_wd)
@@ -168,37 +178,56 @@ def generate_pngs(date_limit, date, date_re, df, df_ita, df_rg):
     
     
     #histogram to ax3 --------------------------------------------------------------------------------
-    df_prov_ = df_prov.drop_duplicates('totale_casi')
-    df_prov_.sort_values(by=['totale_casi'], inplace=True, ascending=False)
-    df_prov_hist = df_prov_.iloc[:8]    
-    color_list = [cmap.to_rgba(x) for x in df_prov_hist['totale_casi'].to_list()]
-    x_ind = np.arange(len(df_prov_hist['sigla_provincia'].to_list()))
+    #df_prov_ = df_prov.drop_duplicates('totale_casi')
+    #df_prov_.sort_values(by=['totale_casi'], inplace=True, ascending=False)
+    #df_prov_hist = df_prov_.iloc[:8]    
+    #color_list = [cmap.to_rgba(x) for x in df_prov['totale_casi'].to_list()]
+    #x_ind = np.arange(len(df_prov_hist['sigla_provincia'].to_list()))
 
     ax3 = fig.add_subplot(gs[1,2])
-    ax3.bar(x_ind, df_prov_hist['totale_casi'], width=0.95, align='center', color=color_list)
+    plt.text(1, 0.85, 'Istogramma\nprovincie', color='black', ha='right',fontsize=(labels_sz-6), transform=ax3.transAxes)
+    #ax3.bar(x_ind, df_prov_hist['totale_casi'], width=0.95, align='center', color=color_list)
     
-    plt.ylim(return_ylims(df['totale_casi'].max()))
+    hist_bins = []
+    for x in np.logspace(0,np.log10(return_ylims(df['totale_casi'].max())[1]),14):
+        hist_bins.append(x)
+    print(hist_bins)
+    ax3.hist(df_prov['totale_casi'], bins=hist_bins,
+             color=label_colors_reg[0],
+             edgecolor=label_colors_reg[len(label_colors_reg)-1],
+             linewidth=(line_wd/3))
+
+    
+    ax3.set_xscale("log")
+    ax3.set_xlim(xmin=1)
+    ax3.set_ylim(ymax=20)
+    ax3.set_xticks((1,10,100,1000))
+    #plt.title('Istogramma\nprovincie', loc='right', pad=float(-150), **{'fontsize': (labels_sz-6) })
+    plt.xlabel('Numero di casi', labelpad=15, **dict(fontsize=(labels_sz)))
+    
+    #plt.ylim(return_ylims(df['totale_casi'].max()))
+
     ax3.spines['top'].set_visible(False)
     ax3.spines['right'].set_visible(False)
     ax3.spines['bottom'].set_linewidth(line_wd)
     ax3.spines['left'].set_linewidth(line_wd)
     ax3.tick_params(labelsize=labels_sz, labelcolor = 'black', width=1)
-    ax3.yaxis.set_major_locator(mpl.ticker.LinearLocator(numticks=5))
-    plt.xticks(x_ind, df_prov_hist['sigla_provincia'].to_list())
-    ax3.xaxis.set_tick_params(rotation=70)
+    #ax3.yaxis.set_major_locator(mpl.ticker.LinearLocator(numticks=5))
+
+    #plt.xticks(x_ind, df_prov_hist['sigla_provincia'].to_list())
+    #ax3.xaxis.set_tick_params(rotation=70)
     
-
-    plt.savefig(os.path.join(os.getcwd(),'Figs',str(date_limit)+'.png'),dpi=300, format='png', bbox_inches='tight')
-    #plt.savefig(os.path.join(os.getcwd(),'Figs',str(date_limit)+'.jpeg'),dpi=300, format='jpeg', quality=100, optimize=True, bbox_inches='tight')
+    plt.savefig(os.path.join(os.getcwd(),'Figs',str(date_limit)+'.png'),dpi=300, bbox_inches='tight')
     plt.close(fig)
-    del date_axis, df_prov_, df_prov_hist, df_data_reg, data_reg
+    del date_axis,  df_data_reg, data_reg, #df_prov_, df_prov_hist,
     gc.collect()
-
 
 file_name_re = 'limits_IT_regions.geojson.txt'
 file_name_prov = 'limits_IT_provinces.geojson.txt'
+file_name_rzones = 'dpc-covid19-ita-aree.geojson.txt'
 df_map_re = gpd.read_file(os.path.join(os.getcwd(),'Data',file_name_re))
 df_map_prov = gpd.read_file(os.path.join(os.getcwd(),'Data',file_name_prov))
+df_map_rzones = gpd.read_file(os.path.join(os.getcwd(),'Data',file_name_rzones))
 #df_map_re.plot()
 #df_map_prov.plot()
 
@@ -218,7 +247,9 @@ date_list_re = date_list_re[1:]
 #    print(date_list[i],'\t', date_list_re[i] )
 
 #shared for all the plots
-map_col = 'YlOrBr'
+map_col = 'YlGnBu'
+extent = (6.8,36.6,18.2,47)
+color_limits = (0.15 , 0.85)
 limits = [0,10000]
 line_wd = 2
 labels_sz = 20
@@ -226,4 +257,4 @@ norm = mpl.colors.SymLogNorm(linthresh=1,vmin=limits[0], vmax=limits[1])
 cmap = mpl.cm.ScalarMappable(norm=norm, cmap=map_col)
 
 for date_limit in range(len(date_list)):
-    generate_pngs(date_limit, date_list[date_limit], date_list_re[date_limit], df, df_ita, df_reg)
+    generate_pngs(date_limit, date_list[date_limit], date_list_re[date_limit], df, df_ita, df_reg, df_map_rzones)

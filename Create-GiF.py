@@ -2,6 +2,7 @@ import imageio
 import os
 from pygifsicle import optimize
 import time
+import gc
 
 today_gif = "0{}-0{}.gif".format(time.gmtime(time.time()).tm_mday,time.gmtime(time.time()).tm_mon)
 today_gif_opt = "0{}-0{}_opt.gif".format(time.gmtime(time.time()).tm_mday,time.gmtime(time.time()).tm_mon)
@@ -32,5 +33,6 @@ with imageio.get_writer(gif_path, mode='I', **gif_settings) as writer:
     for fig in figures:
         writer.append_data(imageio.imread(os.path.join(figs_path,fig)))
 
+gc.collect()
+
 optimize(gif_path, gif_path_opt)
-exit()
